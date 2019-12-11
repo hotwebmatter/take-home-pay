@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Console;
 
 namespace take_home_pay
 {
@@ -6,7 +7,7 @@ namespace take_home_pay
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            WriteLine("Hello World!");
         }
     }
 }
