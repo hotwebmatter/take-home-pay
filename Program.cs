@@ -23,11 +23,11 @@ namespace take_home_pay
 
             WriteLine("{0, 18}{1, 16}", "Employee Name:", employeeName);
             WriteLine("{0, 18}{1, 16:C2}", "Monthly sales:", salesMonthly);
-            WriteLine("{0, 18}{1, 16:C2}", "Commission:", salesCommission);
-            WriteLine("{0, 18}{1, 16:C2}", "Federal Tax:", salesTax);
-            WriteLine("{0, 18}{1, 16:C2}", "Retirement:", retirementDeduction);
-            WriteLine("{0, 18}{1, 16:C2}", "Social Security:", socialSecurityDeduction);
-            WriteLine("{0, 18}{1, 16:C2}", "Total Deductions:", totalDeductions);
+            WriteLine("{0, 18}{1, 16:N2}", "Commission:", salesCommission);
+            WriteLine("{0, 18}{1, 16:N2}", "Federal Tax:", salesTax);
+            WriteLine("{0, 18}{1, 16:N2}", "Retirement:", retirementDeduction);
+            WriteLine("{0, 18}{1, 16:N2}", "Social Security:", socialSecurityDeduction);
+            WriteLine("{0, 18}{1, 16:N2}", "Total Deductions:", totalDeductions);
             WriteLine("{0, 18}{1, 16:C2}", "Take Home Pay:", takeHomePay);
         }
     }
