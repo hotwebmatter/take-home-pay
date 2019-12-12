@@ -22,6 +22,12 @@ namespace take_home_pay
                     takeHomePay = salesCommission - totalDeductions;
 
             WriteLine("{0, 15}{1, 15}", "Employee Name:", employeeName);
+            WriteLine("{0, 15}{1, 15:C2}", "Monthly sales:", salesMonthly);
+            WriteLine("{0, 15}{1, 15:C2}", "Commission:", salesCommission);
+            WriteLine("{0, 15}{1, 15:C2}", "Federal Tax:", salesTax);
+            WriteLine("{0, 15}{1, 15:C2}", "Retirement:", retirementDeduction);
+            WriteLine("{0, 15}{1, 15:C2}", "Social Security:", socialSecurityDeduction);
+            WriteLine("{0, 15}{1, 15:C2}", "Total Deduction:", totalDeductions);
             WriteLine("{0, 15}{1, 15:C2}", "Take Home Pay:", takeHomePay);
         }
     }
