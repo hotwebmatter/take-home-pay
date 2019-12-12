@@ -13,7 +13,7 @@ namespace take_home_pay
                           FEDERAL_TAX_PERCENTAGE = 0.18M,
                           RETIREMENT_PERCENTAGE = 0.1M,
                           SOCIAL_SECURITY_PERCENTAGE = 0.06M;
-            decimal salesMonthly = 161432,
+            decimal salesMonthly = 1300000,
                     salesCommission = salesMonthly * COMMISSION_PERCENTAGE,
                     salesTax = salesCommission * FEDERAL_TAX_PERCENTAGE,
                     retirementDeduction = salesCommission * RETIREMENT_PERCENTAGE,
